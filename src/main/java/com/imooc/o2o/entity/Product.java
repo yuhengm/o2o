@@ -14,7 +14,7 @@ public class Product {
     private Integer priority;
     private Date createTime;
     private Date lastEditTime;
-    private Integer enableStatus; // -1 = unavailable, 0 = out of stock, 1 = on display
+    private Integer enableStatus; // 0 = unavailable, 1 = on display
     private List<ProductImg> productImgList;
     private ProductCategory productCategory;
     private Shop shop;
