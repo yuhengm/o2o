@@ -7,7 +7,7 @@ public class PersonInfo {
     private String name;
     private String profileImg;
     private String email;
-    private String gender;
+    private String gender; // non-binary included
     private Integer enableStatus;
     private Integer userType; // 1=customer; 2=merchant; 3=admin
     private Date createTime;
