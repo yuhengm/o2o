@@ -2,6 +2,9 @@ package com.imooc.o2o.entity;
 
 import java.util.Date;
 
+/**
+ * This class represents the area where shops locates.
+ */
 public class Area {
 
     // Use wrapper class to avoid default values

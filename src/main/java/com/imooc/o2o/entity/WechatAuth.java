@@ -2,7 +2,11 @@ package com.imooc.o2o.entity;
 
 import java.util.Date;
 
+/**
+ * This class represents a user authenticated through wechat.
+ */
 public class WechatAuth {
+
     private Long wechatAuthId;
     private String openId;
     private Date createTime;

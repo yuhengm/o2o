@@ -2,7 +2,11 @@ package com.imooc.o2o.entity;
 
 import java.util.Date;
 
+/**
+ * This class represents a user created using username and password.
+ */
 public class LocalAuth {
+
     private Long localAuthId;
     private String username;
     private String password;

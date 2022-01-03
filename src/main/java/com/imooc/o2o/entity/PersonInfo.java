@@ -2,7 +2,11 @@ package com.imooc.o2o.entity;
 
 import java.util.Date;
 
+/**
+ * This class represents a person with associated information in the system.
+ */
 public class PersonInfo {
+
     private Long userId;
     private String name;
     private String profileImg;
