@@ -16,6 +16,8 @@ public class HeadLine {
     private Date createTime;
     private Date lastEditTime;
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public Long getLineId() {
         return lineId;
     }

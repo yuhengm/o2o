@@ -14,6 +14,8 @@ public class Area {
     private Date createTime;
     private Date lastEditedTime;
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public int getAreaId() {
         return areaId;
     }

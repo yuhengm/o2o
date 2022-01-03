@@ -16,6 +16,8 @@ public class ShopCategory {
     private Date lastEditTime;
     private ShopCategory parent; // categories this category belongs to
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public Long getShopCategoryId() {
         return shopCategoryId;
     }

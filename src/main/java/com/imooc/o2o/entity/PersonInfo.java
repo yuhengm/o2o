@@ -17,6 +17,8 @@ public class PersonInfo {
     private Date createTime;
     protected Date lastEditTime;
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public Long getUserId() {
         return userId;
     }

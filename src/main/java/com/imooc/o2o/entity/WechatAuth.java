@@ -12,6 +12,8 @@ public class WechatAuth {
     private Date createTime;
     private PersonInfo personInfo;
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public Long getWechatAuthId() {
         return wechatAuthId;
     }

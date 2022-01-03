@@ -18,6 +18,8 @@ public class Shop {
     private Integer enableStatus; // -1 = invalid shop; 0 = shop under admin review; 1 = valid shop
     private String advice; // advice/alert from admin
 
+    /// Getters and Setters /////////////////////////////////////////
+
     public void setOwner(PersonInfo owner) {
         this.owner = owner;
     }
