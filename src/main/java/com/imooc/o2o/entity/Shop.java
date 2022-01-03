@@ -2,6 +2,9 @@ package com.imooc.o2o.entity;
 
 import java.util.Date;
 
+/**
+ * This class represents the shop in the webapp.
+ */
 public class Shop {
 
     private Long shopId;
@@ -14,6 +17,22 @@ public class Shop {
     private Date lastEditTime;
     private Integer enableStatus; // -1 = invalid shop; 0 = shop under admin review; 1 = valid shop
     private String advice; // advice/alert from admin
+
+    public void setOwner(PersonInfo owner) {
+        this.owner = owner;
+    }
+
+    public ShopCategory getShopCategory() {
+        return shopCategory;
+    }
+
+    public void setShopCategory(ShopCategory shopCategory) {
+        this.shopCategory = shopCategory;
+    }
+
+    private Area area;
+    private PersonInfo owner;
+    private ShopCategory shopCategory;
 
     public Long getShopId() {
         return shopId;
@@ -94,4 +113,16 @@ public class Shop {
     public void setAdvice(String advice) {
         this.advice = advice;
     }
+    public Area getArea() {
+        return area;
+    }
+
+    public void setArea(Area area) {
+        this.area = area;
+    }
+
+    public PersonInfo getOwner() {
+        return owner;
+    }
+
 }
