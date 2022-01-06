@@ -18,7 +18,7 @@ import java.util.Map;
  */
 @Controller
 // define url with which this class can be accessed
-@RequestMapping("/superadmin")
+//@RequestMapping("/superadmin")
 public class AreaController {
     @Autowired
     private AreaService areaService;
@@ -29,7 +29,7 @@ public class AreaController {
      *
      */
     // naming convention: frontend visited url is lowercase
-    @RequestMapping(value = "/listarea", method = RequestMethod.GET)
+    @RequestMapping(value = "superadmin/listarea", method = RequestMethod.GET)
     // returned values need to be turned into json format
     @ResponseBody
     private Map<String, Object> listArea() {
