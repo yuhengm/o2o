@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--Global Configuration-->
+    <settings>
+
+        <!--Forces the use of auto-generated primary keys.-->
+        <setting name="useGeneratedKeys" value="true"/>
+
+        <!--Uses the custom column name instead of the column label. -->
+        <setting name="useColumnLabel" value="true"/>
+
+        <!--Enables automatic mapping from database column names to camel case Java property names.-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>
